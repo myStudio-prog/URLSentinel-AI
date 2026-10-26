@@ -1,0 +1,58 @@
+{
+  "dataset_id": 967,
+  "original_records": 235795,
+  "cleaned_records": 235370,
+  "train_records": 188296,
+  "test_records": 47074,
+  "feature_names": [
+    "url_length",
+    "domain_length",
+    "is_ip",
+    "dot_count",
+    "hyphen_count",
+    "digit_count",
+    "letter_count",
+    "special_char_count",
+    "at_count",
+    "question_count",
+    "equals_count",
+    "uses_https"
+  ],
+  "random_split": {
+    "accuracy": 0.9953902366486808,
+    "phishing_precision": 0.9980465815176559,
+    "phishing_recall": 0.9911460405889375,
+    "phishing_f1": 0.9945843420100327,
+    "confusion_matrix_labels_0_1": [
+      [
+        19926,
+        178
+      ],
+      [
+        39,
+        26931
+      ]
+    ]
+  },
+  "limitations": "Random split of one dataset; not independent real-world performance.",
+  "hostname_split": {
+    "accuracy": 0.9957275750305173,
+    "phishing_precision": 0.9980362315283028,
+    "phishing_recall": 0.992045676361507,
+    "phishing_f1": 0.9950319375443577,
+    "confusion_matrix_labels_0_1": [
+      [
+        20329,
+        163
+      ],
+      [
+        40,
+        26982
+      ]
+    ]
+  },
+  "hostname_split_records": {
+    "train": 187856,
+    "test": 47514
+  }
+}
